@@ -1,0 +1,16 @@
+{
+  "name": "gplay-reviews-fetcher",
+  "version": "1.0.0",
+  "description": "Fetch Google Play reviews in multiple languages using google-play-scraper",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "fetch": "node index.js"
+  },
+  "keywords": ["google-play", "reviews", "scraper", "app", "reviews-fetcher"],
+  "author": "Werkli",
+  "license": "MIT",
+  "dependencies": {
+    "google-play-scraper": "^1.0.0"
+  }
+}
