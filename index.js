@@ -47,6 +47,7 @@ async function fetchReviewsForLang(appId, lang, country = 'us') {
       replyText: r.replyText,
       replyDate: r.replyDate,
       version: r.version,
+      thumbsUp: r.thumbsUp || 0,
       lang,
       url: r.url
     }));
