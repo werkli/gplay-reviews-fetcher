@@ -7,7 +7,7 @@
  * Default appId: com.thomaspeissl.quick_dungeon_crawler_od.twa
  */
 
-const gplay = require('google-play-scraper');
+const gplay = require('google-play-scraper').default;
 const fs = require('fs');
 const path = require('path');
 
