@@ -11,6 +11,6 @@
   "author": "Werkli",
   "license": "MIT",
   "dependencies": {
-    "google-play-scraper": "^1.0.0"
+    "google-play-scraper": "^10.0.0"
   }
 }
